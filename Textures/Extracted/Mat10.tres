@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://t83ayq271qo8"]
+
+[ext_resource type="Texture2D" uid="uid://de0xgbvl6gm8s" path="res://Peach's Castle Interior 1F/tex_900B000.png" id="1_cxhpm"]
+
+[resource]
+resource_name = "Mat10"
+transparency = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_cxhpm")
+roughness = 0.08
+disable_receive_shadows = true
+shadow_to_opacity = true

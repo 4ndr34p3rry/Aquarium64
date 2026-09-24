@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dvdky3fcfk3lt"]
+
+[ext_resource type="Texture2D" uid="uid://0loqufc8v34w" path="res://Fih/tex_301B5E0.png" id="1_sgtbu"]
+
+[resource]
+resource_name = "Mat0"
+cull_mode = 2
+shading_mode = 0
+albedo_texture = ExtResource("1_sgtbu")

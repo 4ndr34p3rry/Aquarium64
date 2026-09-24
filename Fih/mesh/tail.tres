@@ -1,0 +1,37 @@
+[gd_resource type="ArrayMesh" format=4 uid="uid://bcoom8dcx5t1o"]
+
+[ext_resource type="Material" uid="uid://dvdky3fcfk3lt" path="res://Textures/Extracted/Fih/Mat0.tres" id="1_nt3rv"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_qmmb1"]
+_surfaces = [{
+"aabb": AABB(0, -0.03, -0.58, 0.66999996, 0.07, 1.15),
+"format": 34359742465,
+"index_count": 42,
+"index_data": PackedByteArray("BQAAAAYABgAHAAUAAAAFAAcACAAHAAYACAAAAAcAAAAIAAYAAAAIAAMAAAADAAEACAAAAAIAAwAIAAIAAAABAAIAAQADAAQAAwACAAQAAQAEAAIA"),
+"lods": [0.6084093, PackedByteArray("AAABAAIAAAADAAEAAwAAAAIAAQAEAAIAAwACAAQAAQADAAQA")],
+"name": "Mat0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 9,
+"vertex_data": PackedByteArray("AAAAAArXIzyPwvW8AAAAAAAAAADMzEw9HoUrP4/C9bxwPYo+HoUrPwrXIz1wPYo+HoUrPwAAAACF6xE/HoUrPwAAAADhehS/HoUrP4/C9bwpXI++HoUrPwrXIz0pXI++FK4HPwAAAAAAAAAA")
+}]
+blend_shape_mode = 0
+
+[resource]
+resource_name = "Mesh2"
+_surfaces = [{
+"aabb": AABB(0, -0.03, -0.58, 0.66999996, 0.07, 1.15),
+"attribute_data": PackedByteArray("AIB/PwAAsj4AAH4/AACcPgAAIT8AAJE+AAAhPwAAkT4AABk/AAAKPgAAOD8AADY/AAAwPwCADz8AADA/AIAPPwAAOj8AAM8+"),
+"format": 34359742487,
+"index_count": 42,
+"index_data": PackedByteArray("BQAAAAYABgAHAAUAAAAFAAcACAAHAAYACAAAAAcAAAAIAAYAAAAIAAMAAAADAAEACAAAAAIAAwAIAAIAAAABAAIAAQADAAQAAwACAAQAAQAEAAIA"),
+"lods": [0.6084093, PackedByteArray("AAABAAIAAAADAAEAAwAAAAIAAQAEAAIAAwACAAQAAQADAAQA")],
+"material": ExtResource("1_nt3rv"),
+"name": "Mat0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 9,
+"vertex_data": PackedByteArray("AAAAAArXIzyPwvW8AAAAAAAAAADMzEw9HoUrP4/C9bxwPYo+HoUrPwrXIz1wPYo+HoUrPwAAAACF6xE/HoUrPwAAAADhehS/HoUrP4/C9bwpXI++HoUrPwrXIz0pXI++FK4HPwAAAAAAAAAACgWjQSZJVTr1OlJ9wwV85OK41Cr7IKRf0rR31G0iRN9Z40R/kXel65D/T2PrEw/0CLaFQ8E2WGOPtoS7////PwX/e3z1A0CB")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_qmmb1")

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://df2yivw8dc1np"]
+
+[ext_resource type="Texture2D" uid="uid://kmgxlimvmns8" path="res://Peach's Castle Interior 1F/tex_7002000.png" id="1_kbxfj"]
+
+[resource]
+resource_name = "Mat8"
+cull_mode = 2
+albedo_texture = ExtResource("1_kbxfj")
+roughness = 0.07647059

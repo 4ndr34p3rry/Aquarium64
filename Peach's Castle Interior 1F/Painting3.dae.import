@@ -1,0 +1,65 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://ohom7hr8cpdg"
+path="res://.godot/imported/Painting3.dae-9c89ff6ae0af3d9e11167fab057a5bd3.scn"
+
+[deps]
+
+source_file="res://Peach's Castle Interior 1F/Painting3.dae"
+dest_files=["res://.godot/imported/Painting3.dae-9c89ff6ae0af3d9e11167fab057a5bd3.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=2
+materials/extract_format=0
+materials/extract_path="res://Textures/Extracted/Paintings"
+_subresources={
+"materials": {
+"Mat1": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Extracted/Mat1.tres",
+"use_external/path": "uid://dkay88mykij"
+},
+"Mat2": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Extracted/Mat2.tres",
+"use_external/path": "uid://dwi031vpr1yu8"
+},
+"Mat3": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Extracted/Mat3.tres",
+"use_external/path": "uid://cjd3nmgcqs3by"
+},
+"Mat4": {
+"use_external/enabled": true,
+"use_external/fallback_path": "res://Textures/Extracted/Mat4.tres",
+"use_external/path": "uid://v04vcds5bmq3"
+}
+}
+}

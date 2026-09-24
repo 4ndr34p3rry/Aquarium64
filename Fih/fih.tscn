@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://x7cp5ocraw1x"]
+
+[ext_resource type="Script" uid="uid://daw2c5lat677l" path="res://Fih/fih.gd" id="1_8edoh"]
+[ext_resource type="Shader" uid="uid://c8fswoo58jk2s" path="res://Textures/Extracted/Fih/Mat0.gdshader" id="1_h8e3v"]
+[ext_resource type="Texture2D" uid="uid://ck2sl5rux7tp8" path="res://Fih/fish_sm64_tex_301B5E0.png" id="2_8edoh"]
+[ext_resource type="ArrayMesh" uid="uid://4sqymxtryubp" path="res://Fih/mesh/body.tres" id="3_n8my2"]
+[ext_resource type="ArrayMesh" uid="uid://bcoom8dcx5t1o" path="res://Fih/mesh/tail.tres" id="4_k3x6s"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7v3fp"]
+render_priority = 0
+shader = ExtResource("1_h8e3v")
+shader_parameter/albedo_texture = ExtResource("2_8edoh")
+shader_parameter/swim_speed = 3.0
+shader_parameter/swim_amount = 0.15
+
+[node name="Node3D" type="Node3D" unique_id=1782510507]
+transform = Transform3D(-1.0927847e-08, 0, -0.25, 0, 0.25, 0, 0.25, 0, -1.0927847e-08, 0, 0, 0)
+script = ExtResource("1_8edoh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=2121251611]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)
+material_override = SubResource("ShaderMaterial_7v3fp")
+mesh = ExtResource("3_n8my2")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="." unique_id=1805830014]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0.96339977, 0, 0)
+material_override = SubResource("ShaderMaterial_7v3fp")
+mesh = ExtResource("4_k3x6s")

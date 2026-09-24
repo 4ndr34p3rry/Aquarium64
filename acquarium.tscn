@@ -1,0 +1,86 @@
+[gd_scene format=3 uid="uid://b6pl2ko8kubxn"]
+
+[ext_resource type="Script" uid="uid://daq07ewqgknqv" path="res://cam_handler.gd" id="1_js1pg"]
+[ext_resource type="PackedScene" uid="uid://cowwonatlcidb" path="res://Peach's Castle Interior 1F/Area1.dae" id="1_xhxdb"]
+[ext_resource type="PackedScene" uid="uid://ohom7hr8cpdg" path="res://Peach's Castle Interior 1F/Painting3.dae" id="2_07cla"]
+[ext_resource type="Script" uid="uid://dp2qq32bap45c" path="res://fih_spawner.gd" id="3_onvkg"]
+[ext_resource type="Texture2D" uid="uid://di0ednl4h3lxm" path="res://Textures/0100689c-5de6-4795-83d6-a6f28d00db90.png" id="4_trwgw"]
+
+[sub_resource type="Environment" id="Environment_7v3fp"]
+background_mode = 1
+ambient_light_source = 2
+ambient_light_color = Color(0.8594141, 0.9253846, 1, 1)
+ambient_light_energy = 0.25
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7v3fp"]
+resource_local_to_scene = true
+emission_shape = 3
+emission_box_extents = Vector3(4, 0, 4)
+direction = Vector3(0, 1, 0)
+spread = 0.0
+initial_velocity_min = 1.0
+initial_velocity_max = 1.0
+gravity = Vector3(0, 0, 0)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_446ha"]
+transparency = 1
+shading_mode = 0
+albedo_texture = ExtResource("4_trwgw")
+billboard_mode = 3
+particles_anim_h_frames = 1
+particles_anim_v_frames = 1
+particles_anim_loop = false
+
+[sub_resource type="QuadMesh" id="QuadMesh_qna5x"]
+material = SubResource("StandardMaterial3D_446ha")
+size = Vector2(0.2, 0.2)
+
+[node name="Node3D" type="Node3D" unique_id=62112672]
+script = ExtResource("1_js1pg")
+
+[node name="Area1" parent="." unique_id=672478892 instance=ExtResource("1_xhxdb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.583042, -3.2382658, 1.2455821)
+
+[node name="Painting3" parent="Area1" unique_id=591009305 instance=ExtResource("2_07cla")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 43.001957, 4.0994844, -5.370346)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1976654294]
+environment = SubResource("Environment_7v3fp")
+
+[node name="FihSpawner" type="Node3D" parent="." unique_id=1853572312]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 11.616802, 2.4802456, -13.6458025)
+script = ExtResource("3_onvkg")
+
+[node name="FihSpawner2" type="Node3D" parent="." unique_id=1507067309]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -0.4899907, 2.4802456, 17.381407)
+script = ExtResource("3_onvkg")
+
+[node name="Camera1" type="Camera3D" parent="." unique_id=920024900]
+transform = Transform3D(0.6971651, -0.064975455, -0.7139601, 0, 0.9958844, -0.09063257, 0.7169106, 0.06318586, 0.6942958, 1.6546679, 1.2893896, -4.4857726)
+keep_aspect = 0
+fov = 57.0
+size = 11.046
+
+[node name="Camera2" type="Camera3D" parent="." unique_id=628159837]
+transform = Transform3D(-0.9999877, 0.00036690105, 0.0049372786, 0, 0.9972502, -0.07410806, -0.0049508926, -0.07410715, -0.997238, -0.8926609, 1.615619, 5.706849)
+keep_aspect = 0
+fov = 57.0
+size = 11.046
+
+[node name="Bolle" type="GPUParticles3D" parent="." unique_id=1576688750]
+transform = Transform3D(0.09687112, 0, -0.12004969, 0, 1, 0, 0.11881379, 0, 0.0978788, 8.174171, -0.2617092, -17.732716)
+amount = 30
+lifetime = 5.0
+preprocess = 6.0
+randomness = 1.0
+process_material = SubResource("ParticleProcessMaterial_7v3fp")
+draw_pass_1 = SubResource("QuadMesh_qna5x")
+
+[node name="Bolle2" type="GPUParticles3D" parent="." unique_id=1069436090]
+transform = Transform3D(0.09687112, 0, -0.12004969, 0, 1, 0, 0.11881379, 0, 0.0978788, 2.8430433, -0.2617092, 17.96743)
+amount = 40
+lifetime = 7.0
+preprocess = 6.0
+randomness = 1.0
+process_material = SubResource("ParticleProcessMaterial_7v3fp")
+draw_pass_1 = SubResource("QuadMesh_qna5x")

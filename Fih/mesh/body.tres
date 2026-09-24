@@ -1,0 +1,37 @@
+[gd_resource type="ArrayMesh" format=4 uid="uid://4sqymxtryubp"]
+
+[ext_resource type="Material" uid="uid://dvdky3fcfk3lt" path="res://Textures/Extracted/Fih/Mat0.tres" id="1_3icpr"]
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v6x3d"]
+_surfaces = [{
+"aabb": AABB(-1.0799999, -0.19, -0.91999996, 2.09, 0.39999998, 2.19),
+"format": 34359742465,
+"index_count": 72,
+"index_data": PackedByteArray("CAACAAkAAAAIAAkAAgAIAAUACQADAAAACQACAAoAAwAJAAoAAwALAAAAAAALAAgABgADAAoACwADAAYABgAKAAwACwABAAgABgABAAsACAABAAUADAAHAAYABgAHAAEACgANAAwADQAHAAwACgACAA0ABAABAAcAAQAEAAUABwANAAQABQAEAAIAAgAEAA0A"),
+"lods": [0.97287273, PackedByteArray("AAABAAUAAAAFAAIABgABAAAABQAEAAIAAQAEAAUABgAHAAEABAABAAcAAAADAAYAAgADAAAABgADAAcAAwACAAQAAwAEAAcA"), 1.459309, PackedByteArray("AAABAAIAAwABAAAAAgADAAAAAwAEAAEAAQAEAAIAAwACAAQA")],
+"name": "Mat0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 14,
+"vertex_data": PackedByteArray("16PwvgrXIzwK1yO/Urgevz0KVz6PwvU9Urgev1yPQr6PwvU9UrgePwrXIzwehWu/zcwMPwrXIzxcj6I/61F4vwrXIzwehWs+AAAAPwrXIz71KNy+hevRPgrXIz4pXA8/cD2KvwrXIzwAAAAArkfhvrgeBb5SuJ6+AAAAP7geBb71KNy+rkfhvgrXIz5SuJ6+rkeBPwrXIzwK1yM8hevRPilcD74pXA8/")
+}]
+blend_shape_mode = 0
+
+[resource]
+resource_name = "Mesh"
+_surfaces = [{
+"aabb": AABB(-1.0799999, -0.19, -0.91999996, 2.09, 0.39999998, 2.19),
+"attribute_data": PackedByteArray("AACJPgCATz8AAFI+AAD7PgAAUj4AAPs+AIA5PwCAaD8AADI/AAAAvAAAeD0AAOc+AAAtPwCAND8AACQ/AACVPgAAYDwAgA0/AACPPgAALD8AAC0/AIA0PwAAjz4AACw/AIBjPwAAAj8AACQ/AACVPg=="),
+"format": 34359742487,
+"index_count": 72,
+"index_data": PackedByteArray("CAACAAkAAAAIAAkAAgAIAAUACQADAAAACQACAAoAAwAJAAoAAwALAAAAAAALAAgABgADAAoACwADAAYABgAKAAwACwABAAgABgABAAsACAABAAUADAAHAAYABgAHAAEACgANAAwADQAHAAwACgACAA0ABAABAAcAAQAEAAUABwANAAQABQAEAAIAAgAEAA0A"),
+"lods": [0.97287273, PackedByteArray("AAABAAUAAAAFAAIABgABAAAABQAEAAIAAQAEAAUABgAHAAEABAABAAcAAAADAAYAAgADAAAABgADAAcAAwACAAQAAwAEAAcA"), 1.459309, PackedByteArray("AAABAAIAAwABAAAAAgADAAAAAwAEAAEAAQAEAAIAAwACAAQA")],
+"material": ExtResource("1_3icpr"),
+"name": "Mat0",
+"primitive": 3,
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 14,
+"vertex_data": PackedByteArray("16PwvgrXIzwK1yO/Urgevz0KVz6PwvU9Urgev1yPQr6PwvU9UrgePwrXIzwehWu/zcwMPwrXIzxcj6I/61F4vwrXIzwehWs+AAAAPwrXIz71KNy+hevRPgrXIz4pXA8/cD2KvwrXIzwAAAAArkfhvrgeBb5SuJ6+AAAAP7geBb71KNy+rkfhvgrXIz5SuJ6+rkeBPwrXIzwK1yM8hevRPilcD74pXA8/VgHiMMbwiyJsbP/iT+sPM19sNBxv6yWz4f5OMJHNpb5Tlv9/EPa8MH88/386p3+pW7UX3IrU6FOPq5rCcNWBXIIAkl47w8yIUlZ5D1ru9bSLtakjltTM05ZVBPCw7ac0ov7Rf2aZ83+fqxA9////Pw==")
+}]
+blend_shape_mode = 0
+shadow_mesh = SubResource("ArrayMesh_v6x3d")
