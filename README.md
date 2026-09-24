@@ -4,4 +4,6 @@ Aquarium64 is the reconstruction of one of the aquarium inside the Jolly Roger B
 
 ![Screenshot](screenshot.png)
 
-<small>The project has the typo "A**c**quarium" instead of "Aquarium" all over the project, i know</small>
+The project is entirely made with Godot with free assets.
+
+<sub>The project has the typo "A**c**quarium" instead of "Aquarium" all over the project, i know</sub>
