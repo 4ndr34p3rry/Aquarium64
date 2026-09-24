@@ -3,4 +3,8 @@
 /android/
 export/
 export_presets.cfg
-export_presets.cfg
+
+# makepkg build artifacts
+/src/
+/pkg/
+*.pkg.tar.zst
