@@ -6,6 +6,9 @@ Aquarium64 is the reconstruction of one of the aquarium inside the Jolly Roger B
 
 The project is entirely made with Godot with free assets.
 
+<sub>The project has the typo "A**c**quarium" instead of "Aquarium" all over the project, i know</sub>
+
+
 ## Installation
 
 ### Windows
@@ -13,5 +16,3 @@ Go to releases and download the .scr file, drop it inside the System32 folder (a
 
 ### Linux
 I still have to figure it out, coming soon.
-
-<sub>The project has the typo "A**c**quarium" instead of "Aquarium" all over the project, i know</sub>
