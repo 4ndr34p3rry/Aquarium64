@@ -1,3 +1,5 @@
+//this is vibecoded since i have no idea how to program shaders
+//UNUSED
 shader_type spatial;
 // Ignoriamo le luci (unshaded) e disattiviamo il culling per vedere sempre la bolla
 render_mode unshaded, cull_disabled;

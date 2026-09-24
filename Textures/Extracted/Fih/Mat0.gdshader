@@ -1,3 +1,4 @@
+//this is vibecoded since i have no idea how to program shaders
 shader_type spatial;
 // Usa render_mode unshaded se vuoi l'illuminazione retro come abbiamo fatto prima
 render_mode unshaded, cull_disabled; 
