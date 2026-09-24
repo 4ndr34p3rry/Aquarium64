@@ -1,0 +1,20 @@
+# Acquarium64 as an XScreenSaver program.
+#
+# XScreenSaver shows every entry of the "programs:" list of ~/.xscreensaver
+# as a selectable screensaver. Add a line for Acquarium64 to that list.
+# The trailing "\" continues the line, and the literal "\n\" terminates it.
+#
+# In ~/.xscreensaver:
+#
+#   programs:                                                   \
+#       "Acquarium64"    /usr/bin/acquarium64 --fullscreen \n\
+#
+# Then restart XScreenSaver and pick it from the list:
+#
+#   xscreensaver-command -restart
+#   xscreensaver-demo
+#
+# Notes:
+# - XScreenSaver works on X11 sessions only (see README.md).
+# - If the binary is installed in another location, adjust the path above,
+#   or point the entry at: /usr/bin/env godot --path /path/to/Aquarium64
