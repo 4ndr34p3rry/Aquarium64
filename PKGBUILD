@@ -8,7 +8,7 @@
 #   makepkg -si     # see README.md -> Installation -> Linux
 
 pkgname=acquarium64
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="The Jolly Roger Bay aquarium from Super Mario 64 as a screensaver (Godot, GL Compatibility)"
 arch=('x86_64')
