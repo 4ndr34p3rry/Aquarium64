@@ -1,6 +1,6 @@
 extends Node3D
 
-# there are two cameras, one frames another acquarium
+# there are two cameras, one frames another aquarium
 @onready var cam1 = $Camera1
 @onready var cam2 = $Camera2
 

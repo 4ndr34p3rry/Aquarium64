@@ -21,7 +21,7 @@ func odd_even(n):
 func _ready():
 	home_position = global_position
 	speed *= randf_range(0.75, 1.25) # gives fishes a randomized speed to make
-									 # the acquarium more alive
+									 # the aquarium more alive
 
 func _physics_process(delta):
 	timer += delta
