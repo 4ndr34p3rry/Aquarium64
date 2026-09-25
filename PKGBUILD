@@ -7,7 +7,7 @@
 # To build and install from a checkout of this repository:
 #   makepkg -si     # see README.md -> Installation -> Linux
 
-pkgname=acquarium64
+pkgname=aquarium64
 pkgver=1.0.1
 pkgrel=1
 pkgdesc="The Jolly Roger Bay aquarium from Super Mario 64 as a screensaver (Godot, GL Compatibility)"
@@ -16,7 +16,7 @@ url="https://github.com/4ndr34p3rry/Aquarium64"
 license=('GPL-3.0-or-later')
 depends=('libgl' 'libxcursor' 'libxext' 'libxfixes' 'libxinerama' 'libxrandr' 'alsa-lib')
 makedepends=('godot' 'curl' 'unzip')
-optdepends=('xscreensaver: use Acquarium64 as an actual X11 screensaver')
+optdepends=('xscreensaver: use Aquarium64 as an actual X11 screensaver')
 # The repo has no stable release tags yet, so build from main.
 # Once tags are cut, pin this to a tag instead: "$url/archive/v$pkgver.tar.gz".
 source=("$url/archive/refs/heads/main.tar.gz")
@@ -49,15 +49,15 @@ build() {
     # Import resources, then export the standalone Linux build using the
     # "Linux" preset defined in export_presets.cfg.
     godot --headless --quit --import
-    godot --headless --export-release "Linux" "$srcdir/Acquarium64.x86_64"
+    godot --headless --export-release "Linux" "$srcdir/Aquarium64.x86_64"
 }
 
 package() {
-    install -Dm755 "$srcdir/Acquarium64.x86_64" "$pkgdir/usr/bin/acquarium64"
+    install -Dm755 "$srcdir/Aquarium64.x86_64" "$pkgdir/usr/bin/aquarium64"
     install -Dm644 "$srcdir/Aquarium64-main/packaging/aquarium64.desktop" \
         "$pkgdir/usr/share/applications/aquarium64.desktop"
     install -Dm644 "$srcdir/Aquarium64-main/icon.svg" \
-        "$pkgdir/usr/share/icons/hicolor/scalable/apps/acquarium64.svg"
+        "$pkgdir/usr/share/icons/hicolor/scalable/apps/aquarium64.svg"
     install -Dm644 "$srcdir/Aquarium64-main/packaging/xscreensaver.conf.example" \
-        "$pkgdir/usr/share/doc/acquarium64/xscreensaver.conf.example"
+        "$pkgdir/usr/share/doc/aquarium64/xscreensaver.conf.example"
 }
