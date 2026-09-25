@@ -37,13 +37,13 @@ godot --fullscreen
 2. Export a Linux build, either from the editor (Project → Export → Linux Desktop) or from the terminal:
 
    ```sh
-   godot --headless --export-release "Linux" acquarium64.x86_64
+   godot --headless --export-release "Linux" aquarium64.x86_64
    ```
 
 3. Run it:
 
    ```sh
-   ./acquarium64.x86_64 --fullscreen
+   ./aquarium64.x86_64 --fullscreen
    ```
 
 #### Option C — Arch Linux (PKGBUILD)
@@ -56,16 +56,16 @@ cd Aquarium64
 makepkg -si        # requires base-devel; pulls godot + export templates at build time
 ```
 
-This installs `/usr/bin/acquarium64`, an app menu entry and `/usr/share/doc/acquarium64/xscreensaver.conf.example`.
+This installs `/usr/bin/aquarium64`, an app menu entry and `/usr/share/doc/aquarium64/xscreensaver.conf.example`.
 
 #### Using it as an actual screensaver (XScreenSaver)
 
 1. Install and start XScreenSaver (Arch: `sudo pacman -S xscreensaver`).
-2. Add Acquarium64 to the `programs:` list in `~/.xscreensaver` (a commented example is installed with the package):
+2. Add Aquarium64 to the `programs:` list in `~/.xscreensaver` (a commented example is installed with the package):
 
    ```
    programs:                                                                \
-               "Acquarium64"    /usr/bin/acquarium64 --fullscreen    \n\
+               "Aquarium64"    /usr/bin/aquarium64 --fullscreen    \n\
    ```
 
 3. Restart XScreenSaver and select it from the list:

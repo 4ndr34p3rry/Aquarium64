@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Name=Acquarium64
+Name=Aquarium64
 Comment=The Jolly Roger Bay aquarium from Super Mario 64 as a screensaver
-Exec=acquarium64 --fullscreen
-Icon=acquarium64
+Exec=aquarium64 --fullscreen
+Icon=aquarium64
 Terminal=false
 Categories=Graphics;Game;
 Keywords=screensaver;aquarium;super mario 64;
